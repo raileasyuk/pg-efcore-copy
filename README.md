@@ -9,6 +9,8 @@ Entity framework core extension to perform [Postgres copy](https://kb.objectrock
 
 Based on [PostgreSQLCopyHelper](https://github.com/PostgreSQLCopyHelper/PostgreSQLCopyHelper)
 
+Supports .NET 6 and EF Core 6.0.
+
 ## Quick Start
 
 ### Installation

@@ -172,7 +172,7 @@ namespace EF.Extensions.PgCopy
 
                 var lambda = Expression.Lambda(property, parameter).Compile();
 
-                var columnName = QuoteIdentifier(propertyType.GetColumnName());
+                var columnName = QuoteIdentifier(propertyType.GetColumnName(StoreObjectIdentifier.Table(entityType.GetTableName(), entityType.GetSchema())));
                 var colType = textInfo.ToTitleCase(propertyType.GetColumnType());
                 var npgsqlDbType = GetNpgsqlDbType(colType);
                 var method = mapMethodInfo?.MakeGenericMethod(propertyType.ClrType);

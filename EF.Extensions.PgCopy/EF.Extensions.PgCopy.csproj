@@ -7,10 +7,10 @@
     <Version>1.0.5</Version>
     <Authors>Fazzani</Authors>
     <Company>Synker</Company>
-    <PackageProjectUrl>https://github.com/Fazzani/pg-efcore-copy</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/raileasyuk/pg-efcore-copy</PackageProjectUrl>
     <PackageIconUrl>https://i.imgur.com/jX4ztWE.png</PackageIconUrl>
     <PackageTags>Postgres;entity framework;copy;extension</PackageTags>
-    <PackageDescription>Entity framework core extension to perform Postgres copy</PackageDescription>
+    <PackageDescription>Entity framework core extension to perform Postgres copy (fork for .NET 6)</PackageDescription>
     <RootNamespace>EF.Extensions.PgCopy</RootNamespace>
   </PropertyGroup>
   
